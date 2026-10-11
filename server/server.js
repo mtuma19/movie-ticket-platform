@@ -13,7 +13,8 @@ app.use(express.json());
 // Routes
 app.use("/api/auth", authRoutes);
 
-const MONGO_URI = "mongodb://localhost:27017/cinema-app"; // Replace with your MongoDB Atlas URI if using cloud
+const MONGO_URI =
+  "mongodb+srv://tumanishvilimari_db_user:gYOEXPi2BKnGu8cb@cluster0.rqrxtaq.mongodb.net/";
 
 mongoose
   .connect(MONGO_URI)
